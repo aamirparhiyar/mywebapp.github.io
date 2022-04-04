@@ -14,7 +14,7 @@ public class MywebappApplication {
 		SpringApplication.run(MywebappApplication.class, args);
 	}
 	
-	@GetMapping("/")
+	@GetMapping("/live")
 	@RequestMapping 
 	public String index() {
 		return "message from webapp live";
