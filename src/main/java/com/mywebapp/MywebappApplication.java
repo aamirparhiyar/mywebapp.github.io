@@ -17,7 +17,7 @@ public class MywebappApplication {
 	@GetMapping("/")
 	@RequestMapping 
 	public String index() {
-		return "message from webapp";
+		return "message from webapp live";
 	}
 
 }
